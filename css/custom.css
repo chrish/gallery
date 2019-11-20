@@ -1,0 +1,30 @@
+body{
+    background-color: #000000;
+}
+
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #000000;
+    opacity: .5;
+  }
+
+  div#slidecontainer{
+        width: 75vw;
+        height: 75vh;
+        margin: auto auto auto auto;
+        vertical-align: middle;
+        
+  }
+
+  
+  ul.gallery-navbar, div.gallery-control {
+      display: none !important;
+  }
+  ul.gallery-slideshow li img {
+      margin-left: 50%;
+      margin-top: 50vh;
+  }
